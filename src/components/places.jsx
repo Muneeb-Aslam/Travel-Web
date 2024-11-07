@@ -4,7 +4,6 @@ import one from "../assets/1.jpg";
 import two from "../assets/2.jpg";
 import four from "../assets/4.jpg";
 import six from "../assets/6.jpg";
-import eleven from "../assets/8.jpg";
 import twel from "../assets/11.jpg";
 import thre from "../assets/12.jpg";
 import fou from "../assets/13.jpg";
@@ -19,6 +18,20 @@ const Places = () => {
       </h3>
       <hr className="w-full bg-gray-200" />
       <CCarousel controls indicators className="pt-6">
+        <CCarouselItem>
+          <CImage
+            className="d-block w-100  object-contain"
+            src={twel}
+            alt="slide 3"
+          />
+        </CCarouselItem>
+        <CCarouselItem>
+          <CImage
+            className="d-block w-100  object-contain"
+            src={thre}
+            alt="slide 3"
+          />
+        </CCarouselItem>
         <CCarouselItem>
           <CImage
             className="d-block w-100  object-contain"
@@ -43,28 +56,7 @@ const Places = () => {
         <CCarouselItem>
           <CImage
             className="d-block w-100  object-contain"
-            src={eleven}
-            alt="slide 2"
-          />
-        </CCarouselItem>
-        <CCarouselItem>
-          <CImage
-            className="d-block w-100  object-contain"
             src={six}
-            alt="slide 3"
-          />
-        </CCarouselItem>
-        <CCarouselItem>
-          <CImage
-            className="d-block w-100  object-contain"
-            src={twel}
-            alt="slide 3"
-          />
-        </CCarouselItem>
-        <CCarouselItem>
-          <CImage
-            className="d-block w-100  object-contain"
-            src={thre}
             alt="slide 3"
           />
         </CCarouselItem>

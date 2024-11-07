@@ -25,7 +25,7 @@ const HeroSection = () => {
             <img
               src={fb}
               alt="facebook"
-              className="w-[50px] h-[50px] text-white cursor-pointer"
+              className="w-[30px] md:w-[50px] h-[30px] md:h-[50px] text-white cursor-pointer"
             />
           </a>
           <a href="" target="_blank">
@@ -33,7 +33,7 @@ const HeroSection = () => {
             <img
               src={insta}
               alt="insta"
-              className="w-[50px] h-[50px] text-white cursor-pointer"
+              className="w-[30px] md:w-[50px] h-[30px] md:h-[50px] text-white cursor-pointer"
             />
           </a>
           <a
@@ -43,14 +43,14 @@ const HeroSection = () => {
             <img
               src={whatsapp}
               alt="email"
-              className="w-[50px] h-[50px] text-white cursor-pointer bg-white rounded-full"
+              className="w-[30px] md:w-[50px] h-[30px] md:h-[50px] text-white cursor-pointer bg-white rounded-full"
             />
           </a>
           <a href="mailto:raziajawadtravelllc@gmail.com" target="_blank">
             <img
               src={email}
               alt="email"
-              className="w-[50px] h-[50px] text-white cursor-pointer"
+              className="w-[30px] md:w-[50px] h-[30px] md:h-[50px] text-white cursor-pointer"
             />
           </a>
         </div>
