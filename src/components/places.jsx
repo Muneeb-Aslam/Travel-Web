@@ -13,7 +13,7 @@ import sixth from "../assets/15.jpg";
 
 const Places = () => {
   return (
-    <section className="bg-white py-20 px-6 md:px-12">
+    <section className="bg-white py-8 md:py-20 px-6 md:px-12">
       <h3 className="text-black text-xl sm:text-2xl md:text-4xl font-bold pb-4">
         Popular Places to Visit
       </h3>
