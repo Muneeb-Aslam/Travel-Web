@@ -4,7 +4,7 @@ import email from "../assets/gmail.png";
 
 const Footer = () => {
   return (
-    <footer className="w-full min-h-[80px] h-max bg-gradient-to-r from-custom-dark-1 to-custom-dark-2 flex justify-between items-center flex-wrap">
+    <footer className="w-full min-h-[80px] h-max bg-gradient-to-r from-custom-dark-1 to-custom-dark-2 flex justify-between items-center flex-wrap gap-4 py-4">
       <div className="flex justify-start items-center flex-wrap gap-4 pl-6 pb-6 sm:pb-0">
         <span className="text-white font-bold text-xl">
           Razia Jawad Travel & Tourism
