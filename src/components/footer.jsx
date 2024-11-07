@@ -1,6 +1,7 @@
 import fb from "../assets/fb.png";
 import insta from "../assets/insta.png";
 import email from "../assets/gmail.png";
+import whatsapp from "../assets/whatsapp.png";
 
 const Footer = () => {
   return (
@@ -14,22 +15,43 @@ const Footer = () => {
           {new Date().getFullYear()}
         </span>
       </div>
-      <div className="flex justify-start items-center gap-8 pl-6 pr-20">
-        <img
-          src={fb}
-          alt="facebook"
-          className="w-[30px] h-[30px] text-white cursor-pointer"
-        />
-        <img
-          src={insta}
-          alt="insta"
-          className="w-[30px] h-[30px] text-white cursor-pointer"
-        />
-        <img
-          src={email}
-          alt="email"
-          className="w-[30px] h-[30px] text-white cursor-pointer"
-        />
+      <div className="flex justify-center items-center gap-8 pl-6 pr-20">
+        <a
+          href="https://www.facebook.com/profile.php?id=61567256833020"
+          target="_blank"
+        >
+          {" "}
+          <img
+            src={fb}
+            alt="facebook"
+            className="w-[30px] h-[30px] text-white cursor-pointer"
+          />
+        </a>
+        <a href="" target="_blank">
+          {" "}
+          <img
+            src={insta}
+            alt="insta"
+            className="w-[30px] h-[30px] text-white cursor-pointer"
+          />
+        </a>
+        <a
+          href="https://api.whatsapp.com/send?phone=+971554529776"
+          target="_blank"
+        >
+          <img
+            src={whatsapp}
+            alt="email"
+            className="w-[30px] h-[30px] text-white cursor-pointer bg-white rounded-full"
+          />
+        </a>
+        <a href="mailto:raziajawadtravelllc@gmail.com" target="_blank">
+          <img
+            src={email}
+            alt="email"
+            className="w-[30px] h-[30px] text-white cursor-pointer"
+          />
+        </a>
       </div>
     </footer>
   );

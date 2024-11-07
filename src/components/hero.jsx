@@ -3,6 +3,7 @@ import heroVideos from "../assets/hero.mp4";
 import fb from "../assets/fb.png";
 import insta from "../assets/insta.png";
 import email from "../assets/gmail.png";
+import whatsapp from "../assets/whatsapp.png";
 
 const HeroSection = () => {
   return (
@@ -16,7 +17,10 @@ const HeroSection = () => {
           WHAT ARE YOU WAITING FOR?
         </p>
         <div className="flex justify-center items-center gap-8">
-          <a href="">
+          <a
+            href="https://www.facebook.com/profile.php?id=61567256833020"
+            target="_blank"
+          >
             {" "}
             <img
               src={fb}
@@ -24,7 +28,7 @@ const HeroSection = () => {
               className="w-[50px] h-[50px] text-white cursor-pointer"
             />
           </a>
-          <a href="">
+          <a href="" target="_blank">
             {" "}
             <img
               src={insta}
@@ -32,7 +36,17 @@ const HeroSection = () => {
               className="w-[50px] h-[50px] text-white cursor-pointer"
             />
           </a>
-          <a href="">
+          <a
+            href="https://api.whatsapp.com/send?phone=+971554529776"
+            target="_blank"
+          >
+            <img
+              src={whatsapp}
+              alt="email"
+              className="w-[50px] h-[50px] text-white cursor-pointer bg-white rounded-full"
+            />
+          </a>
+          <a href="mailto:raziajawadtravelllc@gmail.com" target="_blank">
             <img
               src={email}
               alt="email"
