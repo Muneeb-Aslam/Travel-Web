@@ -7,7 +7,7 @@ import email from "../assets/gmail.png";
 const HeroSection = () => {
   return (
     <div className="relative w-full h-screen">
-      <video src={heroVideos} autoPlay muted loop />
+      <video src={heroVideos} autoPlay muted loop preload="auto" />
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <h1 className="w-full text-7xl md:text-8xl text-white font-extrabold">
           Travel AWAITS
