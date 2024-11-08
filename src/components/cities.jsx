@@ -25,7 +25,7 @@ const Cities = () => {
             alt=""
             className="w-full h-[330px] object-cover aspect-square"
           />
-          <h3 className="text-black text-2xl font-bold pl-6 pt-4">Abu Dubai</h3>
+          <h3 className="text-black text-2xl font-bold pl-6 pt-4">Abu Dhabi</h3>
         </div>
         <div className="h-[400px] w-[500px] bg-white shadow-2xl rounded-2xl flex flex-col justify-start items-start">
           <img
